@@ -1,6 +1,6 @@
 import app from "./app.js";
 
-const FASTIFY_PORT = Number(process.env.FASTIFY_PORT) || 3006;
+const FASTIFY_PORT = Number(process.env.PORT) || 10000;
 
 app.listen({ port: FASTIFY_PORT });
 
