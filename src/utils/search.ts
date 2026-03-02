@@ -1,6 +1,6 @@
 import { MigrosAPI } from "migros-api-wrapper";
 
-import { getGuestInfo } from "./token.ts";
+import { getGuestInfo } from "./token.js";
 import type { IProductCardsOptions } from "migros-api-wrapper/dist/api/product-display/product-cards.ts";
 import type { IProductSearchBody } from "migros-api-wrapper/dist/api/onesearch-oc-seaapi/product-search.ts";
 

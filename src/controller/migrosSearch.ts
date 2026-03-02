@@ -1,5 +1,5 @@
 import type { FastifyInstance, FastifyRequest, FastifyReply } from "fastify";
-import { searchForProduct } from "../utils/search.ts";
+import { searchForProduct } from "../utils/search.js";
 
 export default async function migrosSearch(fastify: FastifyInstance) {
   // GET /api/v1/user
